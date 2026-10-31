@@ -1,0 +1,2249 @@
+{
+ "armature": "afRig",
+ "blend": "afRig.blend",
+ "blender": "4.4.3",
+ "bones": {
+  "b__ROOT__": {
+   "parent": "",
+   "children": 2,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "tail": [
+    0.0,
+    0.0015,
+    0.0
+   ],
+   "parent_offset": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__ROOT_bind__": {
+   "parent": "b__ROOT__",
+   "children": 2,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.0122,
+    0.0
+   ],
+   "tail": [
+    0.0,
+    1.0137,
+    0.0
+   ],
+   "parent_offset": [
+    0.0,
+    1.0122,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Spine0__": {
+   "parent": "b__ROOT_bind__",
+   "children": 12,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.1292,
+    0.0
+   ],
+   "tail": [
+    0.0,
+    1.1307,
+    0.0
+   ],
+   "parent_offset": [
+    0.0,
+    0.117,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Spine1__": {
+   "parent": "b__Spine0__",
+   "children": 12,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.2912,
+    0.0
+   ],
+   "tail": [
+    0.0,
+    1.292677,
+    -0.00026
+   ],
+   "parent_offset": [
+    0.0,
+    0.162,
+    0.0
+   ],
+   "parent_quat": [
+    0.996195,
+    -0.087154,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Spine2__": {
+   "parent": "b__Spine1__",
+   "children": 9,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.450739,
+    0.0
+   ],
+   "tail": [
+    0.0,
+    1.4522,
+    0.000338
+   ],
+   "parent_offset": [
+    0.0,
+    0.157115,
+    0.027703
+   ],
+   "parent_quat": [
+    0.979924,
+    0.19937,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Neck__": {
+   "parent": "b__Spine2__",
+   "children": 3,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.606638,
+    -0.036138
+   ],
+   "tail": [
+    0.0,
+    1.607986,
+    -0.035481
+   ],
+   "parent_offset": [
+    0.0,
+    0.143773,
+    -0.070283
+   ],
+   "parent_quat": [
+    0.993571,
+    0.113208,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Head__": {
+   "parent": "b__Neck__",
+   "children": 2,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.674047,
+    -0.00326
+   ],
+   "tail": [
+    0.0,
+    1.675547,
+    -0.00326
+   ],
+   "parent_offset": [
+    0.0,
+    0.075,
+    -1e-06
+   ],
+   "parent_quat": [
+    0.974368,
+    -0.224959,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__HeadNew__": {
+   "parent": "b__Head__",
+   "children": 15,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.691047,
+    -0.00626
+   ],
+   "tail": [
+    0.0,
+    1.692547,
+    -0.00626
+   ],
+   "parent_offset": [
+    0.0,
+    0.017,
+    -0.003
+   ],
+   "parent_quat": [
+    1.0,
+    6.1e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftCheek__": {
+   "parent": "b__HeadNew__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.038517,
+    1.690332,
+    0.091775
+   ],
+   "tail": [
+    0.038517,
+    1.691832,
+    0.091775
+   ],
+   "parent_offset": [
+    0.038517,
+    -0.000703,
+    0.098035
+   ],
+   "parent_quat": [
+    1.0,
+    -6e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightCheek__": {
+   "parent": "b__HeadNew__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.038514,
+    1.690332,
+    0.091775
+   ],
+   "tail": [
+    -0.038514,
+    1.691832,
+    0.091775
+   ],
+   "parent_offset": [
+    -0.038514,
+    -0.000703,
+    0.098035
+   ],
+   "parent_quat": [
+    1.0,
+    -6e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__EyeArea__": {
+   "parent": "b__HeadNew__",
+   "children": 2,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.741041,
+    0.044746
+   ],
+   "tail": [
+    0.0,
+    1.742527,
+    0.044541
+   ],
+   "parent_offset": [
+    0.0,
+    0.05,
+    0.051
+   ],
+   "parent_quat": [
+    0.997643,
+    -0.068621,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftEyeArea__": {
+   "parent": "b__EyeArea__",
+   "children": 4,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.032,
+    1.744461,
+    0.069511
+   ],
+   "tail": [
+    0.032,
+    1.745961,
+    0.069511
+   ],
+   "parent_offset": [
+    0.032,
+    0.0,
+    0.025
+   ],
+   "parent_quat": [
+    0.997641,
+    0.068642,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftInBrow__": {
+   "parent": "b__LeftEyeArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.011002,
+    1.761472,
+    0.100221
+   ],
+   "tail": [
+    0.011002,
+    1.762972,
+    0.100221
+   ],
+   "parent_offset": [
+    -0.020998,
+    0.017016,
+    0.030707
+   ],
+   "parent_quat": [
+    1.0,
+    -7.7e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftMidBrow__": {
+   "parent": "b__LeftEyeArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.033616,
+    1.768169,
+    0.095223
+   ],
+   "tail": [
+    0.033616,
+    1.769669,
+    0.095223
+   ],
+   "parent_offset": [
+    0.001616,
+    0.023712,
+    0.025708
+   ],
+   "parent_quat": [
+    1.0,
+    -7.7e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftOutBrow__": {
+   "parent": "b__LeftEyeArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.054617,
+    1.762987,
+    0.082302
+   ],
+   "tail": [
+    0.054617,
+    1.764487,
+    0.082302
+   ],
+   "parent_offset": [
+    0.022617,
+    0.018528,
+    0.012788
+   ],
+   "parent_quat": [
+    1.0,
+    -7.7e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftEye_mod__": {
+   "parent": "b__LeftEyeArea__",
+   "children": 3,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.036,
+    1.745117,
+    0.070986
+   ],
+   "tail": [
+    0.036,
+    1.746617,
+    0.070986
+   ],
+   "parent_offset": [
+    0.004,
+    0.000656,
+    0.001475
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftEye__": {
+   "parent": "b__LeftEye_mod__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.036,
+    1.745117,
+    0.070986
+   ],
+   "tail": [
+    0.036,
+    1.746617,
+    0.070986
+   ],
+   "parent_offset": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightEyeArea__": {
+   "parent": "b__EyeArea__",
+   "children": 4,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.032,
+    1.744461,
+    0.069511
+   ],
+   "tail": [
+    -0.032,
+    1.745961,
+    0.069511
+   ],
+   "parent_offset": [
+    -0.032,
+    0.0,
+    0.025
+   ],
+   "parent_quat": [
+    0.997641,
+    0.068642,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightInBrow__": {
+   "parent": "b__RightEyeArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.010999,
+    1.761472,
+    0.100221
+   ],
+   "tail": [
+    -0.010999,
+    1.762972,
+    0.100221
+   ],
+   "parent_offset": [
+    0.021001,
+    0.017016,
+    0.030707
+   ],
+   "parent_quat": [
+    1.0,
+    -7.7e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightMidBrow__": {
+   "parent": "b__RightEyeArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.033614,
+    1.768169,
+    0.095223
+   ],
+   "tail": [
+    -0.033614,
+    1.769669,
+    0.095223
+   ],
+   "parent_offset": [
+    -0.001614,
+    0.023712,
+    0.025708
+   ],
+   "parent_quat": [
+    1.0,
+    -7.7e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightOutBrow__": {
+   "parent": "b__RightEyeArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.054614,
+    1.762987,
+    0.082302
+   ],
+   "tail": [
+    -0.054614,
+    1.764487,
+    0.082302
+   ],
+   "parent_offset": [
+    -0.022614,
+    0.018528,
+    0.012788
+   ],
+   "parent_quat": [
+    1.0,
+    -7.7e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightEye_mod__": {
+   "parent": "b__RightEyeArea__",
+   "children": 3,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.035587,
+    1.745117,
+    0.070986
+   ],
+   "tail": [
+    -0.035587,
+    1.746617,
+    0.070986
+   ],
+   "parent_offset": [
+    -0.003587,
+    0.000656,
+    0.001475
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightEye__": {
+   "parent": "b__RightEye_mod__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.035587,
+    1.745117,
+    0.070986
+   ],
+   "tail": [
+    -0.035587,
+    1.746617,
+    0.070986
+   ],
+   "parent_offset": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__MouthArea__": {
+   "parent": "b__HeadNew__",
+   "children": 7,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.672041,
+    0.043738
+   ],
+   "tail": [
+    0.0,
+    1.673527,
+    0.043532
+   ],
+   "parent_offset": [
+    0.0,
+    -0.019,
+    0.05
+   ],
+   "parent_quat": [
+    0.997643,
+    -0.068621,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftUpLip__": {
+   "parent": "b__MouthArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.014293,
+    1.67972,
+    0.09971
+   ],
+   "tail": [
+    0.014293,
+    1.68122,
+    0.09971
+   ],
+   "parent_offset": [
+    0.014293,
+    -5e-05,
+    0.056497
+   ],
+   "parent_quat": [
+    0.997647,
+    0.068562,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Jaw__": {
+   "parent": "b__MouthArea__",
+   "children": 1,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.70949,
+    0.012863
+   ],
+   "tail": [
+    0.0,
+    1.71099,
+    0.012863
+   ],
+   "parent_offset": [
+    0.0,
+    0.04132,
+    -0.025461
+   ],
+   "parent_quat": [
+    0.997641,
+    0.06864,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__JawComp__": {
+   "parent": "b__Jaw__",
+   "children": 7,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.664488,
+    0.023856
+   ],
+   "tail": [
+    0.0,
+    1.665988,
+    0.023856
+   ],
+   "parent_offset": [
+    0.0,
+    -0.045,
+    0.011
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftLoLip__": {
+   "parent": "b__JawComp__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.010987,
+    1.668757,
+    0.097516
+   ],
+   "tail": [
+    0.010987,
+    1.670257,
+    0.097516
+   ],
+   "parent_offset": [
+    0.010987,
+    0.004281,
+    0.073659
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Chin__": {
+   "parent": "b__JawComp__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.637477,
+    0.087852
+   ],
+   "tail": [
+    0.0,
+    1.638978,
+    0.087852
+   ],
+   "parent_offset": [
+    0.0,
+    -0.027,
+    0.064
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LoLip__": {
+   "parent": "b__JawComp__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.666475,
+    0.104856
+   ],
+   "tail": [
+    0.0,
+    1.667975,
+    0.104856
+   ],
+   "parent_offset": [
+    0.0,
+    0.002,
+    0.081
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightLoLip__": {
+   "parent": "b__JawComp__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.010987,
+    1.668757,
+    0.097516
+   ],
+   "tail": [
+    -0.010987,
+    1.670257,
+    0.097516
+   ],
+   "parent_offset": [
+    -0.010987,
+    0.004281,
+    0.073659
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Tongue1__": {
+   "parent": "b__JawComp__",
+   "children": 1,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.673481,
+    0.057857
+   ],
+   "tail": [
+    0.0,
+    1.674981,
+    0.057857
+   ],
+   "parent_offset": [
+    0.0,
+    0.008999,
+    0.033999
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Tongue2__": {
+   "parent": "b__Tongue1__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.674479,
+    0.073857
+   ],
+   "tail": [
+    0.0,
+    1.675979,
+    0.073857
+   ],
+   "parent_offset": [
+    0.0,
+    0.001,
+    0.016
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__Jawline__": {
+   "parent": "b__JawComp__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.676988,
+    0.013779
+   ],
+   "tail": [
+    -5e-06,
+    1.678474,
+    0.013574
+   ],
+   "parent_offset": [
+    0.0,
+    0.012499,
+    -0.010079
+   ],
+   "parent_quat": [
+    0.997563,
+    -0.068615,
+    0.012623,
+    0.000868
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LowerTeeth__": {
+   "parent": "b__JawComp__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.661684,
+    0.077195
+   ],
+   "tail": [
+    0.0,
+    1.663184,
+    0.077195
+   ],
+   "parent_offset": [
+    0.0,
+    -0.002795,
+    0.053339
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__UpLip__": {
+   "parent": "b__MouthArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.681333,
+    0.108886
+   ],
+   "tail": [
+    0.0,
+    1.682833,
+    0.108886
+   ],
+   "parent_offset": [
+    0.0,
+    0.000292,
+    0.065807
+   ],
+   "parent_quat": [
+    0.997647,
+    0.068562,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightMouth__": {
+   "parent": "b__MouthArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.027548,
+    1.675334,
+    0.088886
+   ],
+   "tail": [
+    -0.027548,
+    1.676834,
+    0.088885
+   ],
+   "parent_offset": [
+    -0.027548,
+    -0.002914,
+    0.045174
+   ],
+   "parent_quat": [
+    0.997647,
+    0.068562,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftMouth__": {
+   "parent": "b__MouthArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.027548,
+    1.675334,
+    0.088886
+   ],
+   "tail": [
+    0.027548,
+    1.676834,
+    0.088885
+   ],
+   "parent_offset": [
+    0.027548,
+    -0.002914,
+    0.045174
+   ],
+   "parent_quat": [
+    0.997647,
+    0.068562,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightUpLip__": {
+   "parent": "b__MouthArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.014293,
+    1.67972,
+    0.09971
+   ],
+   "tail": [
+    -0.014293,
+    1.68122,
+    0.09971
+   ],
+   "parent_offset": [
+    -0.014293,
+    -5e-05,
+    0.056497
+   ],
+   "parent_quat": [
+    0.997647,
+    0.068562,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__UpperTeeth__": {
+   "parent": "b__MouthArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.68637,
+    0.078921
+   ],
+   "tail": [
+    0.0,
+    1.687856,
+    0.078716
+   ],
+   "parent_offset": [
+    0.0,
+    0.009381,
+    0.036813
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__NoseArea__": {
+   "parent": "b__HeadNew__",
+   "children": 4,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.001,
+    1.717039,
+    0.063743
+   ],
+   "tail": [
+    -0.001,
+    1.718525,
+    0.063538
+   ],
+   "parent_offset": [
+    -0.001,
+    0.026,
+    0.07
+   ],
+   "parent_quat": [
+    0.997643,
+    -0.068618,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__NoseTip__": {
+   "parent": "b__NoseArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.001,
+    1.708095,
+    0.10132
+   ],
+   "tail": [
+    -0.001,
+    1.709539,
+    0.100913
+   ],
+   "parent_offset": [
+    0.0,
+    -0.014,
+    0.036
+   ],
+   "parent_quat": [
+    0.997643,
+    -0.068621,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__NoseBridge__": {
+   "parent": "b__NoseArea__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.001,
+    1.727497,
+    0.095612
+   ],
+   "tail": [
+    -0.001005,
+    1.72894,
+    0.095205
+   ],
+   "parent_offset": [
+    0.0,
+    0.006,
+    0.033
+   ],
+   "parent_quat": [
+    0.997563,
+    -0.068616,
+    0.012623,
+    0.000868
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__HeadDome__": {
+   "parent": "b__HeadNew__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.766044,
+    0.020749
+   ],
+   "tail": [
+    -5e-06,
+    1.76753,
+    0.020544
+   ],
+   "parent_offset": [
+    0.0,
+    0.075,
+    0.027
+   ],
+   "parent_quat": [
+    0.997563,
+    -0.068615,
+    0.012623,
+    0.000868
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__LeftEar__": {
+   "parent": "b__HeadNew__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.076795,
+    1.72609,
+    -0.006256
+   ],
+   "tail": [
+    0.076795,
+    1.72759,
+    -0.006256
+   ],
+   "parent_offset": [
+    0.076795,
+    0.035043,
+    -0.0
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__RightEar__": {
+   "parent": "b__HeadNew__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.076795,
+    1.72609,
+    -0.006256
+   ],
+   "tail": [
+    -0.076795,
+    1.72759,
+    -0.006256
+   ],
+   "parent_offset": [
+    -0.076795,
+    0.035043,
+    -0.0
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__mouth_slot": {
+   "parent": "b__HeadNew__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.691047,
+    -0.00626
+   ],
+   "tail": [
+    0.0,
+    1.692547,
+    -0.00626
+   ],
+   "parent_offset": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__L_Earring_slot": {
+   "parent": "b__HeadNew__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.691047,
+    -0.00626
+   ],
+   "tail": [
+    0.0,
+    1.692547,
+    -0.00626
+   ],
+   "parent_offset": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    -6.1e-05,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__R_Earring_slot": {
+   "parent": "b__HeadNew__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.0,
+    1.691047,
+    -0.00626
+   ],
+   "tail": [
+    0.0,
+    1.692547,
+    -0.00626
+   ],
+   "parent_offset": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__R_Clavicle__": {
+   "parent": "b__Spine2__",
+   "children": 5,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.02,
+    1.522989,
+    -0.020556
+   ],
+   "tail": [
+    -0.0215,
+    1.522989,
+    -0.020556
+   ],
+   "parent_offset": [
+    -0.02,
+    0.065774,
+    -0.036283
+   ],
+   "parent_quat": [
+    0.701836,
+    -0.086178,
+    0.086178,
+    0.701836
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__R_UpperArm__": {
+   "parent": "b__R_Clavicle__",
+   "children": 6,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.16,
+    1.522989,
+    -0.020556
+   ],
+   "tail": [
+    -0.161061,
+    1.521931,
+    -0.020631
+   ],
+   "parent_offset": [
+    0.0,
+    0.14,
+    0.0
+   ],
+   "parent_quat": [
+    0.92387,
+    -0.026773,
+    -0.017184,
+    0.381383
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__R_Forearm__": {
+   "parent": "b__R_UpperArm__",
+   "children": 4,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.38716,
+    1.296761,
+    -0.036697
+   ],
+   "tail": [
+    -0.388221,
+    1.295705,
+    -0.036612
+   ],
+   "parent_offset": [
+    1e-06,
+    0.321,
+    -0.0
+   ],
+   "parent_quat": [
+    0.998566,
+    0.053538,
+    -1e-06,
+    1e-05
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__R_ForearmTarget_slot": {
+   "parent": "b__R_Forearm__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.38716,
+    1.296761,
+    -0.036697
+   ],
+   "tail": [
+    -0.388221,
+    1.295705,
+    -0.036612
+   ],
+   "parent_offset": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "parent_quat": [
+    1.0,
+    -0.0,
+    0.0,
+    -0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__R_inForearmTarget_slot": {
+   "parent": "b__R_Forearm__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    -0.38716,
+    1.296761,
+    -0.036697
+   ],
+   "tail": [
+    -0.388221,
+    1.295705,
+    -0.036612
+   ],
+   "parent_offset": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "parent_quat": [
+    1.0,
+    -0.0,
+    0.0,
+    -0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__L_Clavicle__": {
+   "parent": "b__Spine2__",
+   "children": 5,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.02,
+    1.522989,
+    -0.020556
+   ],
+   "tail": [
+    0.0215,
+    1.522989,
+    -0.020556
+   ],
+   "parent_offset": [
+    0.02,
+    0.065774,
+    -0.036283
+   ],
+   "parent_quat": [
+    0.701836,
+    -0.086178,
+    -0.086178,
+    -0.701836
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__L_UpperArm__": {
+   "parent": "b__L_Clavicle__",
+   "children": 6,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.16,
+    1.522989,
+    -0.020556
+   ],
+   "tail": [
+    0.161061,
+    1.521931,
+    -0.020631
+   ],
+   "parent_offset": [
+    -0.0,
+    0.14,
+    0.0
+   ],
+   "parent_quat": [
+    0.923806,
+    -0.027422,
+    0.015626,
+    -0.381558
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__L_Forearm__": {
+   "parent": "b__L_UpperArm__",
+   "children": 4,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.387048,
+    1.296649,
+    -0.036699
+   ],
+   "tail": [
+    0.38811,
+    1.295593,
+    -0.036614
+   ],
+   "parent_offset": [
+    5e-06,
+    0.321,
+    0.0
+   ],
+   "parent_quat": [
+    0.998557,
+    0.05355,
+    -0.003926,
+    -0.000515
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__L_ForearmTarget_slot": {
+   "parent": "b__L_Forearm__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.387048,
+    1.296649,
+    -0.036699
+   ],
+   "tail": [
+    0.38811,
+    1.295593,
+    -0.036614
+   ],
+   "parent_offset": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    -0.0,
+    -0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  },
+  "b__L_inForearmTarget_slot": {
+   "parent": "b__L_Forearm__",
+   "children": 0,
+   "length": 0.0015,
+   "roll": 0.0,
+   "head": [
+    0.387048,
+    1.296649,
+    -0.036699
+   ],
+   "tail": [
+    0.38811,
+    1.295593,
+    -0.036614
+   ],
+   "parent_offset": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent_quat": [
+    1.0,
+    -0.0,
+    -0.0,
+    0.0
+   ],
+   "parent_scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "use_connect": false,
+   "inherit_rotation": true,
+   "inherit_scale": "FULL",
+   "deform": true,
+   "constraints": [],
+   "drivers": []
+  }
+ }
+}

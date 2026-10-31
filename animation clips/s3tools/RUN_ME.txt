@@ -1,0 +1,67 @@
+﻿============================================================
+  s3tools - pechem klipy Sims 3 v .glb dlya Godot
+============================================================
+
+KAK POLZOVAT'SYA
+    Raspakovat' v papku s animaciyami, chtoby poluchilos':
+
+        d:\Temp\sims3-blender4+\animation clips\
+            animations.txt
+            *.animation
+            s3tools\            <- eto
+                1_probe.cmd
+                2_bake_separate.cmd
+                ...
+
+    Rezultat pechi uhodit v  d:\Temp\sims3-blender4+\s3_library\
+
+CHTO SNAChALA
+    V nachale lyubogo .cmd est' dve stroki - BLENDER i RIG. Oni uzhe
+    propisany pod tvoi puti; esli chto-to perehalo, poprav' tol'ko ih.
+
+PORYADOK
+    1_probe.cmd            5 klipov, ~30 sekund - proverka, chto vsyo zhivoe
+    2_bake_separate.cmd    osnovnoe: 5269 klipov, klip = fajl, po papkam
+    4_sort.cmd             manifesty po gotovym .glb (nichego ne konvertiruet)
+    6_verify.cmd           chto vnutri .glb: animacii, kanaly, meshi, razmer
+    0_diagnose.cmd         esli .glb pustye ili strannogo razmera
+    3_bake_libraries.cmd   al'ternativa: fajlami po 50 klipov
+    5_measure.cmd          skorosti klipov v m/s (dlya shaga bez skol'zheniya)
+
+SKOL'KO ZANIMAET
+    ~0.75 sekundy na klip. 5269 klipov ~ 65 minut, disk ~1.4 GB.
+    Yarkly prohodit' po kategorii, preryvat' bezopasno: povtornyj zapusk
+    propustit gotovye kategorii (--force chtoby perepech').
+
+CTO BYLO POCHINENO (po tvoej otladke)
+    132 bajta   - rig byl skryt: vybrat' negogo => pustoj eksport
+    1 MB        - v fajl popadali chuzhie eksheny (rezhim ACTIONS tashchil
+                  vse dejstviya sceny) i geometriya; teper' ACTIVE_ACTIONS
+                  + skrytie postoronnih objektov + proverka "meshej net"
+    ekshen iz .glb ne dvigaет rig - sloty dejstvij v Blender 4.4+:
+                  tools\fix_action_slot.py naznachit ekshen vmeste so slotom
+
+KOSTI LICA (guby uezzhayut vverh)
+    7_face.cmd             snyat' rest-dannye tvoego riga -> face_my.json;
+                           esli rjadom lezhit face_van.json - srazu sravnit
+    potom snyat' tot zhe slepok s vanil'nogo riga (komanda pechataetsya) i:
+        python s3tools\tools\diag_face.py --compare face_my.json face_van.json
+    Skript pokazhet: chem otlichayutsya kosti lica - roditel', sdvig ot
+    roditelya, dlina, roll, masshtab, ogranichiteli/drajvery.
+
+    CHTO KONKRETNO DELAET KLIP (byvstree vsego nachat' otsyuda)
+        8_face_check.cmd   peretashchi na nego odin .animation iz talk
+        Pechataet po klipu: edinicy clipa i riga, mnozhitel' translyacij
+        (dolzhen byt' 1.0000) i spisok kostej lica, kotorye dvigayutsya
+        translyaciej. Esli mnozhitel' != 1 - melkie kosti mashtabiruyutsya.
+
+    TRI VARIATA PECHI ODNOGO I TOGO ZHE KLIPA (sravnit' guby glazami):
+        2_bake_separate.cmd --cats talk --limit 3 --force                      (po umolchaniyu: motion)
+        2_bake_separate.cmd --cats talk --limit 3 --force --positions none     (tol'ko povoroty)
+        2_bake_separate.cmd --cats talk --limit 3 --force --positions root     (translyacii tol'ko kornya)
+    Gde guby pravil'nye - tam i prichina.
+
+DOPOLNITEL'NYE KLYUCHI
+    2_bake_separate.cmd --animated-only        tol'ko animirovannye kosti
+    2_bake_separate.cmd --cats loco_walk,emote tol'ko eti kategorii
+    2_bake_separate.cmd --force                perepech' gotovoe
